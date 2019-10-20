@@ -1,0 +1,41 @@
+body {
+    background: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-badge {
+    width: 150px;
+    height: 170px;
+    background: red;
+    border-radius: 10px;
+    box-shadow: 2px 3px;
+}
+
+.greetings-container {
+    color: white;
+    text-align: center;
+}
+
+.greetings-head {
+    padding: 0;
+    margin: 0;
+    font-size: 2.3em;
+}
+
+.greetings-text {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.name {
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 19px 0;
+    margin: 0;
+    font-size: 40px;
+}

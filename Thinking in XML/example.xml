@@ -1,0 +1,32 @@
+<movies>
+    <movie>
+        <name>Star Wars: Episode VIII - The Last Jedi</name>
+        <casts>
+            <cast name="Mark Hamill"></cast>
+            <cast name="Carrie Fisher"></cast>
+            <cast name="Adam Driver"></cast>
+            <cast name="Daisy Ridley"></cast>
+            <cast name="John Boyega"></cast>
+        </casts>
+    </movie>
+    <movie>
+        <name>Star Wars: Episode VII - The Force Awakens</name>
+        <casts>
+            <cast name="Harrison Ford"></cast>
+            <cast name="Mark Hamill"></cast>
+            <cast name="Carrie Fisher"></cast>
+            <cast name="Adam Driver"></cast>
+            <cast name="Daisy Ridley"></cast>
+        </casts>
+    </movie>
+    <movie>
+        <name>Rogue One: A Star Wars Story</name>
+        <casts>
+            <cast name="Felicity Jones"></cast>
+            <cast name="Diego Luna"></cast>
+            <cast name="Alan Tudyk"></cast>
+            <cast name="Donnie Yen"></cast>
+            <cast name="Wen Jiang"></cast>
+        </casts>
+    </movie>
+</movies>

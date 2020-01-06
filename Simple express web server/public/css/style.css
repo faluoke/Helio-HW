@@ -1,0 +1,156 @@
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sub-button {
+    border-style: none;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 28px;
+    background: #6aacd4;
+}
+/* header */
+header {
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header #header-text {
+    float: left;
+}
+
+header #faruk {
+    color: #6aacd4;
+    font-weight: bold;
+}
+
+header #header-text h1 {
+    margin: 0;
+}
+
+header a:hover {
+    opacity: .5;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    display: block;
+    padding: 0 20px 0 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
+
+/* showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+    color: #fff;
+    text-align: center;
+
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 24px;
+}
+
+/* newsletter */
+
+#newsletter {
+    padding: 20px;
+    color: #fff;
+    background: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 25px;
+}
+
+#newsletter form input[type="email"] {
+    height: 25px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+/* boxes */
+
+#boxes .container{
+    display: flex;
+}
+
+#boxes .box {
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes img {
+    width: 100px;
+}
+
+/* footer */
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background: #0d2f44;
+    color: #fff;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    header #header-text,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    #boxes .container,
+    article#main-col,
+    aside#sidebar{
+      display: block;
+      text-align:center;
+      margin: auto;
+      width:100%;
+    } 
+}
